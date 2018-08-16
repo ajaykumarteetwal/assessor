@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="appBackground">#eeeeee</color>
+    <color name="pinkColor">#DA0046</color>
+    <color name="splAshScreenBgColor">#f7f7f7</color>
+    <color name="colorHintText">#616161</color>
+    <color name="colorEditText">#000000</color>
+    <color name="color">#bdbdbd</color>
+    <color name="marqueBackground">#2998F6</color>
+    <color name="navigationCheckedBackgroundColor">#e0e0e0</color>
+    <color name="bagItemNameColorCode">#616161</color>
+    <color name="bagItemPriceColorCode">#000000</color>
+    <color name="itemNameTextColor">@android:color/black</color>
+    <color name="quantityTextColor">#757575</color>
+    <color name="oldPriceTextColor">#757575</color>
+    <color name="newPriceTextColor">#757575</color>
+    <color name="descriptionTextColor">#757575</color>
+    <color name="textBottomLineColor">#cccccc</color>
+    <color name="textBottomLineColorHigher">@color/colorAccent</color>
+    <color name="myBagPriceColor">#757575</color>
+    <color name="tabOuterLineColor">#bdbdbd</color>
+</resources>

@@ -1,0 +1,38 @@
+{
+  "status": true,
+  "responseCode": 200,
+  "message": "Success",
+  "name": "assessmentInstructions",
+  "rows": [
+    {
+      "assessmentName": "El-1934-46467-45",
+      "description": "This wil be desc",
+      "instructions": "These are instructions",
+      "duration": "90 minutes",
+      "startTime": "10-08-2018 01:26 AM",
+      "endTime": "10-08-2018 02:56 AM",
+      "passingPercentage": "70%",
+      "ssc": "This is SSC",
+      "tp": "This is TP",
+      "batchId": "TIKH-248264-8646",
+      "checkBoxText": "Check this, if you have Read out all instructions and ready to attempt text",
+      "buttonText": "Start Assessment",
+      "actionType": 0
+    },
+    {
+      "assessmentName": "El-1934-46467-45",
+      "description": "This wil be desc",
+      "instructions": "These are instructions",
+      "duration": "90 minutes",
+      "startTime": "10-08-2018 01:26 AM",
+      "endTime": "10-08-2018 02:56 AM",
+      "passingPercentage": "70%",
+      "ssc": "This is SSC",
+      "tp": "This is TP",
+      "batchId": "TIKH-248264-8646",
+      "checkBoxText": "Check this, if you have Read out all instructions and ready to attempt quiz",
+      "buttonText": "Start Assessment",
+      "actionType": 0
+    }
+  ]
+}

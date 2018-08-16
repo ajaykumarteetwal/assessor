@@ -1,0 +1,42 @@
+{
+  "status": true,
+  "responseCode": 200,
+  "message": "Success",
+  "name": "questionSet",
+  "data": {
+    "type": "Demo",
+    "questionSetId": "abc-2"
+  },
+  "rows": [
+    {
+      "sno": 11,
+      "question": "How would you deal with confidential information?",
+      "maxMark": 30,
+      "questionId": 575
+    },
+    {
+      "sno": 12,
+      "question": "What is the frequency at which trash cans need to be cleared? How will you ensure that they are cleaned at the appropriate time?",
+      "maxMark": 30,
+      "questionId": 576
+    },
+    {
+      "sno": 13,
+      "question": "List the precautionary measures you can take to avoid a fire hazard",
+      "maxMark": 30,
+      "questionId": 577
+    },
+    {
+      "sno": 14,
+      "question": "What steps would you take to prepare a service area for serving food",
+      "maxMark": 30,
+      "questionId": 578
+    },
+    {
+      "sno": 15,
+      "question": "What pre-meal services can you offer to the customer?",
+      "maxMark": 30,
+      "questionId": 579
+    }
+  ]
+}

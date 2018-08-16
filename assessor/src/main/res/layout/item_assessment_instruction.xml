@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@android:dimen/app_icon_size">
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Assessment Name" />
+
+        <TextView
+            android:id="@+id/assessmentName"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Description/instruction" />
+
+        <TextView
+            android:id="@+id/descInstruction"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Duration" />
+
+        <TextView
+            android:id="@+id/duration"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Start Date/Time" />
+
+        <TextView
+            android:id="@+id/startTime"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="End Date/Time" />
+
+        <TextView
+            android:id="@+id/endTime"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Percentage Required to pass" />
+
+        <TextView
+            android:id="@+id/passingPercentage"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="SSC:" />
+
+        <TextView
+            android:id="@+id/ssc"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="TP:" />
+
+        <TextView
+            android:id="@+id/tp"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Batch Id:" />
+
+        <TextView
+            android:id="@+id/batchId"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <CheckBox
+            android:id="@+id/checkBoxText"
+            style="@style/keyTextStyle" />
+
+        <Button
+            android:id="@+id/startButton"
+            style="@style/valueTextStyle"
+            android:text="Start Assessment" />
+    </TableRow>
+</TableLayout>

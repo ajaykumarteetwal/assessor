@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    android:layout_marginTop="5dp">
+
+    <TableRow
+        style="@style/instructionRowStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="SNo." />
+
+        <TextView
+            android:id="@+id/sno"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow
+        style="@style/instructionRowStyle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Student Id" />
+
+        <TextView
+            android:id="@+id/studentId"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Student Name" />
+
+        <TextView
+            android:id="@+id/studentName"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Enrolment Number" />
+
+        <TextView
+            android:id="@+id/enrolmentNumber"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Name Of Father/Husband" />
+
+        <TextView
+            android:id="@+id/fatherHusbandCount"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="TP:" />
+
+        <TextView
+            android:id="@+id/tp"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow android:id="@+id/vivaRow" style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Viva Duration" />
+
+        <TextView
+            android:id="@+id/vivaDuration"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow android:id="@+id/demoRow" style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Demo Duration" />
+
+        <TextView
+            android:id="@+id/demoDuration"
+            style="@style/valueTextStyle" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Viva Status" />
+
+        <Button
+            android:id="@+id/vivaStatus"
+            style="@style/valueTextStyle"
+            android:text="Action" />
+    </TableRow>
+
+    <TableRow style="@style/instructionRowStyle">
+
+        <TextView
+            style="@style/keyTextStyle"
+            android:text="Demo Status" />
+
+        <Button
+            android:id="@+id/demoStatus"
+            style="@style/valueTextStyle"
+            android:text="Action" />
+    </TableRow>
+
+</TableLayout>

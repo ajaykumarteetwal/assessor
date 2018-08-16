@@ -1,0 +1,73 @@
+{
+  "status": true,
+  "responseCode": 200,
+  "message": "Success",
+  "name": "questionSet",
+  "data": {
+    "type": "Viva",
+    "questionSetId": "abc-1",
+    "duration": 34567
+  },
+  "rows": [
+    {
+      "sno": 1,
+      "question": "List the resources required for preparing a service area?",
+      "maxMark": 30,
+      "questionId": 565
+    },
+    {
+      "sno": 2,
+      "question": "List the steps involved in serving food and beverages.",
+      "maxMark": 30,
+      "questionId": 566
+    },
+    {
+      "sno": 3,
+      "question": "Explain the steps of dealing with left over food items",
+      "maxMark": 30,
+      "questionId": 567
+    },
+    {
+      "sno": 4,
+      "question": "List the steps involved in cleaning tables",
+      "maxMark": 30,
+      "questionId": 568
+    },
+    {
+      "sno": 5,
+      "question": "What should you do if the payment point is not working?",
+      "maxMark": 30,
+      "questionId": 569
+    },
+    {
+      "sno": 6,
+      "question": "How can you effectively spot customer issues and get them resolved?",
+      "maxMark": 30,
+      "questionId": 570
+    },
+    {
+      "sno": 7,
+      "question": "How can you develop a good rapport with customers?",
+      "maxMark": 30,
+      "questionId": 571
+    },
+    {
+      "sno": 8,
+      "question": "How can you enhance brand value of the hotel?",
+      "maxMark": 30,
+      "questionId": 572
+    },
+    {
+      "sno": 9,
+      "question": "What are the behavioural pitfalls, a steward can fall into and tarnish the image of the hotel? How will you escape them?",
+      "maxMark": 30,
+      "questionId": 573
+    },
+    {
+      "sno": 10,
+      "question": "What entertainment programs would you recommend for children?",
+      "maxMark": 30,
+      "questionId": 574
+    }
+  ]
+}

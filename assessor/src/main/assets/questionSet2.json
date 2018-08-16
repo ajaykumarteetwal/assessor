@@ -1,0 +1,73 @@
+{
+  "status": true,
+  "responseCode": 200,
+  "message": "Success",
+  "name": "questionSet",
+  "duration": 345678,
+  "data": {
+    "type": "Viva",
+    "questionSetId": "abc-3"
+  },
+  "rows": [
+    {
+      "sno": 16,
+      "question": "List the steps involved in taking and processing orders.",
+      "maxMark": 30,
+      "questionId": 580
+    },
+    {
+      "sno": 17,
+      "question": "What needs to be done when the customer has finished eating?",
+      "maxMark": 30,
+      "questionId": 581
+    },
+    {
+      "sno": 18,
+      "question": "What is the procedure for conducting chip and pin transfers?",
+      "maxMark": 30,
+      "questionId": 582
+    },
+    {
+      "sno": 19,
+      "question": "How would you deal with customer grievances?",
+      "maxMark": 30,
+      "questionId": 583
+    },
+    {
+      "sno": 20,
+      "question": "How should you treat your subordinates, peers and superiors on the job?",
+      "maxMark": 30,
+      "questionId": 584
+    },
+    {
+      "sno": 21,
+      "question": "What is it important to ensure that customer expectations are met?",
+      "maxMark": 30,
+      "questionId": 585
+    },
+    {
+      "sno": 22,
+      "question": "How would you maintain a well groomed personality?",
+      "maxMark": 30,
+      "questionId": 586
+    },
+    {
+      "sno": 23,
+      "question": "How would you ensure cleanliness and hygiene at workplace?",
+      "maxMark": 30,
+      "questionId": 587
+    },
+    {
+      "sno": 24,
+      "question": "What is PPE?",
+      "maxMark": 30,
+      "questionId": 588
+    },
+    {
+      "sno": 25,
+      "question": "Evening's first customer walks into your restaurant. It's a family  of 8 on a joint family dinner. Husband, Wife, 2 children (aged 8 & 12), Uncle, Aunt and Grandparents. How will you greet them and service them to their utmost satisfaction? Also, the table they want to sit at, is pretty dirty as it is in the far corner of the premises. What will you do about it?",
+      "maxMark": 30,
+      "questionId": 589
+    }
+  ]
+}

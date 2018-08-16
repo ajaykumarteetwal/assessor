@@ -1,0 +1,11 @@
+{
+  "status": true,
+  "responseCode": 200,
+  "message": "Success",
+  "name": "home",
+  "data": {
+    "teacherName": "Rajesh",
+    "teacherEmailId": "abc@gmail.com",
+    "subject": "Physics"
+  }
+}

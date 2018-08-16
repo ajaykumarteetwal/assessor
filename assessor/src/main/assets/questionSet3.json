@@ -1,0 +1,48 @@
+{
+  "status": true,
+  "responseCode": 200,
+  "message": "Success",
+  "name": "questionSet",
+  "data": {
+    "type": "Demo",
+    "questionSetId": "abc-4"
+  },
+  "rows": [
+    {
+      "sno": 26,
+      "question": "You come across a tricky customer who is not happy with any food item on the menu. After sending his 3rd dish back, he creates a huge scene and disturbs other guests. He demands his money back, but that is against restaurant policy. How will you deal with such a scenario?",
+      "maxMark": 30,
+      "questionId": 590
+    },
+    {
+      "sno": 27,
+      "question": "A female co-worker is continuously taking leaves due to family issues with her children and in-laws. She keeps on asking you to cover up for her. Initially it was fine for a few days, but now it has become a trend. Also, her job profile is different from yours and you haven't been trained to handle the equipment that she does. This causes a safety concern as well. How will you tell her to stop putting her burden on you without sounding like an inconsiderate and harsh person.",
+      "maxMark": 30,
+      "questionId": 591
+    },
+    {
+      "sno": 28,
+      "question": "Evening's first customer walks into your restaurant. He has a pregnant wife and 2 year old daughter as companions. How will you greet them and service them to their utmost satisfaction? Also, the table they want to sit at, is pretty dirty as it is in the far corner of the premises. What will you do about it?",
+      "maxMark": 30,
+      "questionId": 592
+    },
+    {
+      "sno": 29,
+      "question": "A customer finds a fly in his food. He makes a huge deal of this and is shouting on top of his voice in the middle of the restaurant, which is disturbing other guests. He needs his money back, but that is against restaurant policy. How will you deal with such a scenario?",
+      "maxMark": 30,
+      "questionId": 593
+    },
+    {
+      "sno": 30,
+      "question": "You find out that your colleague is suffering from latent TB, but wants you to keep quiet about it as she would lose her job if anyone finds out. What will you do in such a scenario so that she doesn't lose her job and the restaurant will also remain safe from the infection",
+      "maxMark": 30,
+      "questionId": 594
+    },
+    {
+      "sno": 31,
+      "question": "A high profile actress and her crew is your guest. While cleaning her room, you accidentally came across the script of her unfinished movie? What would you do?",
+      "maxMark": 30,
+      "questionId": 595
+    }
+  ]
+}

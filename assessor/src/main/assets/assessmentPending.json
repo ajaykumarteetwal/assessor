@@ -1,0 +1,48 @@
+{
+  "status": true,
+  "responseCode": 200,
+  "message": "Success",
+  "name": "assessmentAttempted",
+  "rows": [
+    {
+      "sno": 1,
+      "studentId": "El-1934-46467-45",
+      "studentName": "Tusar",
+      "tp": "This is TP",
+      "enrolmentNumber": "TIKH-248264-8646",
+      "fatherHusband": "Rohan Sharma",
+      "demoStatus": "Pending",
+      "vivaStatus": "Pending"
+    },
+    {
+      "sno": 2,
+      "studentId": "El-1934-46467-45",
+      "studentName": "Rakesh",
+      "tp": "This is TP",
+      "enrolmentNumber": "TIKH-248264-8646",
+      "fatherHusband": "Rohan Sharma",
+      "demoStatus": "Pending",
+      "vivaStatus": "Pending"
+    },
+    {
+      "sno": 3,
+      "studentId": "El-1934-46467-45",
+      "studentName": "Sonu",
+      "tp": "TP",
+      "enrolmentNumber": "TIKH-248264-8646",
+      "fatherHusband": "Rohan Sharma",
+      "vivaStatus": "Pending",
+      "demoStatus": "Pending"
+    },
+    {
+      "sno": 4,
+      "studentId": "El-1934-46467-45",
+      "studentName": "Ankit",
+      "tp": "TP1",
+      "enrolmentNumber": "TIKH-248264-8646",
+      "fatherHusband": "Rohan Sharma",
+      "demoStatus": "Pending",
+      "vivaStatus": "Pending"
+    }
+  ]
+}

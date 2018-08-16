@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AssignIndia</string>
+    <string name="title_activity_assessment_home">Assessment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="pleaseWait">Please wait&#8230;</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_viva">Viva</string>
+</resources>

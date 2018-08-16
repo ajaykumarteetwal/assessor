@@ -1,0 +1,56 @@
+{
+  "status": true,
+  "responseCode": 200,
+  "message": "Success",
+  "name": "assessmentAttempted",
+  "rows": [
+    {
+      "sno": 1,
+      "studentId": "El-1934-46467-45",
+      "studentName": "Tusar",
+      "tp": "This is TP",
+      "enrolmentNumber": "TIKH-248264-8646",
+      "fatherHusband": "Rohan Sharma",
+      "demoStatus": "Attempted",
+      "vivaStatus": "Attempted",
+      "vivaDuration": 345678,
+      "demoDuration": 345678
+    },
+    {
+      "sno": 2,
+      "studentId": "El-1934-46467-45",
+      "studentName": "Rakesh",
+      "tp": "This is TP",
+      "enrolmentNumber": "TIKH-248264-8646",
+      "fatherHusband": "Rohan Sharma",
+      "demoStatus": "Attempted",
+      "vivaStatus": "Attempted",
+      "vivaDuration": 345678,
+      "demoDuration": 345678
+    },
+    {
+      "sno": 3,
+      "studentId": "El-1934-46467-45",
+      "studentName": "Sonu",
+      "tp": "TP",
+      "enrolmentNumber": "TIKH-248264-8646",
+      "fatherHusband": "Rohan Sharma",
+      "vivaStatus": "Attempted",
+      "demoStatus": "Attempted",
+      "vivaDuration": 345678,
+      "demoDuration": 345678
+    },
+    {
+      "sno": 4,
+      "studentId": "El-1934-46467-45",
+      "studentName": "Ankit",
+      "tp": "TP1",
+      "enrolmentNumber": "TIKH-248264-8646",
+      "fatherHusband": "Rohan Sharma",
+      "demoStatus": "Attempted",
+      "vivaStatus": "Attempted",
+      "vivaDuration": 345678,
+      "demoDuration": 345678
+    }
+  ]
+}
