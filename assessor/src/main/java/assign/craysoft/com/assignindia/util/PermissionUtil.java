@@ -9,8 +9,6 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Build;
 import android.provider.Settings;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.widget.Toast;
@@ -38,7 +36,7 @@ public class PermissionUtil {
      * @param permissions android.Manifest
      * @return true if all permissions will be pre-granted.
      */
-    public boolean havePermissionOf(@NonNull Activity activity, @NonNull String... permissions) {
+    public boolean havePermissionOf(Activity activity, String... permissions) {
         boolean status = Build.VERSION.SDK_INT <= Build.VERSION_CODES.LOLLIPOP_MR1;
         if (!status)
             for (String permission : permissions) {
@@ -55,9 +53,9 @@ public class PermissionUtil {
      * @param activity    Current Activity
      * @param permissions android.Manifest
      * @param why         Reason of permissions
-     * @param observable  permissions result observer {@notifyObservers(Object) a boolean as status}
+     * @param observable  permissions result observer {(Object) a boolean as status}
      */
-    public void requestPermission(@NonNull Activity activity, @NonNull String[] permissions, @NonNull String why, @Nullable PermissionObserver observable) {
+    public void requestPermission(Activity activity, String[] permissions, String why, PermissionObserver observable) {
         requestPermission(activity, permissions, why, observable, false);
     }
 
@@ -102,7 +100,7 @@ public class PermissionUtil {
      * @param permissions  request permissions.
      * @param grantResults grant Result of permissions
      */
-    public void onRequestPermissionsResult(int requestCode, String permissions[], @NonNull int[] grantResults) {
+    public void onRequestPermissionsResult(int requestCode, String permissions[], int[] grantResults) {
         if (requestCode == REQUEST_CODE) {
             if (observable != null) {
                 boolean status = grantResults.length > 0;

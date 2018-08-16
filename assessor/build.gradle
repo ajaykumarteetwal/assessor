@@ -4,7 +4,11 @@ apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
 // This is the library version used when deploying the artifact
+group = "assessor"                                        // Maven Group ID for the artifact
 version = "1.0.0"
+def siteUrl = 'https://github.com/ajaykumarteetwal/assessor'      // Homepage URL of the library
+def gitUrl = 'https://github.com/ajaykumarteetwal/assessor.git'   // Git repository URL
+
 
 android {
     compileSdkVersion 28
@@ -38,21 +42,14 @@ dependencies {
 }
 
 
-
-def siteUrl = 'https://github.com/ajaykumarteetwal/assessor'      // Homepage URL of the library
-def gitUrl = 'https://github.com/ajaykumarteetwal/assessor.git'   // Git repository URL
-group = "assessor"                                        // Maven Group ID for the artifact
-
-
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
         pom {
             project {
                 packaging 'aar'
-
                 // Add your description here
-                name 'Assessor part of project'
+                name 'assign.craysoft.com.assignindia'
                 url siteUrl
 
                 // Set your license
