@@ -94,7 +94,7 @@ public class PermissionUtil {
     }
 
     /**
-     * parse permissions result to respond result Observer {@requestPermission}
+     * parse permissions result to respond result Observer {requestPermission}
      *
      * @param requestCode  request code .
      * @param permissions  request permissions.

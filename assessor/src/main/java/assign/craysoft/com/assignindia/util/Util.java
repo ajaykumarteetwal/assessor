@@ -15,7 +15,6 @@ import android.net.NetworkInfo;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Environment;
-import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -353,7 +352,7 @@ public class Util {
         return new File(mediaStorageDir.getPath() + File.separator + "IMG_" + timeStamp + ".jpg");
     }
 
-    public static void showDialog(Context context, String message, @Nullable final DialogInterface.OnClickListener listener) {
+    public static void showDialog(Context context, String message, final DialogInterface.OnClickListener listener) {
         AlertDialog.Builder builder = new AlertDialog.Builder(context);
         builder.setMessage(message);
         if (listener != null)
